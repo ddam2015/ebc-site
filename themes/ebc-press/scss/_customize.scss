@@ -1,0 +1,729 @@
+@font-face {
+  font-family: 'ebc-icons';
+  src: url("#{$ebc-font-path}.eot");
+  src: url("#{$ebc-font-path}.eot?#iefix") format("embedded-opentype"),
+       url("#{$ebc-font-path}.woff") format("woff"),
+       url("#{$ebc-font-path}.ttf") format("truetype"),
+       url("#{$ebc-font-path}.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.fi-muscle-arm:before {
+  font-family: "ebc-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+.fi-muscle-arm:before {
+  content: "\f900";
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  text-transform: uppercase;
+}
+.gset a:hover, .gset a:focus {
+  color: $primary-color;
+}
+.gset .button {
+  color: $primary-color;
+}
+#site-navigation .menu .is-active>a,
+#site-navigation .menu .current-menu-ancestor.is-active>a,
+.button.secondary,
+.button.secondary:hover,
+.button.secondary:focus {
+  color: $primary-color;
+}
+.hover .button, button:hover, .button:hover, .gset .button:hover {
+  color: $secondary-color;
+}
+.grouped_form .input-group-field {
+  min-width: 0;
+  padding: 0.25rem;
+  height: 2rem;
+}
+
+.alt-font h1,
+.alt-font .h1,
+.alt-font h2,
+.alt-font .h2,
+.alt-font h3,
+.alt-font .h3,
+.alt-font h4,
+.alt-font .h4,
+.alt-font h5,
+.alt-font .h5,
+.alt-font h6,
+.alt-font .h6 {
+  font-family: $header-font-family-alt;
+}
+
+button, .button {
+	border-color: $button-color;
+}
+.hover .button, button:hover, .button:hover, button:focus, .button:focus  {
+	background-color: $button-color;
+}
+.orange {
+  color: lighten($secondary-color, 30%);
+}
+.white-bg, 
+.white-bg label {
+  color: $black;
+}
+
+.button.disabled,
+.button.disabled:hover,
+.button.disabled:focus,
+.button[disabled],
+.button[disabled]:hover,
+.button[disabled]:focus {
+	background-color: $darker-gray;
+}
+.button.hollow {
+  border-color: $button-color;
+  color: $button-color;
+}
+.button.hollow:hover,
+.button.hollow:focus {
+  border-color: scale-color($button-color, $lightness: -30%);
+  color: scale-color($button-color, $lightness: -30%);
+}
+.button-secondary {
+  background: $medium-gray;
+}
+
+.button + .tag-label {
+  background: $black;
+}
+.button.disabled + .tag-label {
+  background: $white;
+}
+
+.input-group-label {
+  background: $black;
+}
+.dk-bkgd,
+.gset {
+	background: linear-gradient(176deg, lighten($black, 20%) 10%, $black 42%);
+}
+.gset .name-emphasis,
+.gset .green,
+.gset .input-group-label {
+  color: $primary-color;
+}
+.gset .input-group-label {
+  background: $secondary-color;
+}
+.g365_form_wrap .form_message ul li.success{
+  color: $darker-gray;
+}
+
+
+//ninja forms
+.nf-error-msg {
+	background: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+  color: $alert-color;
+}
+
+#page {
+  background: $black;
+}
+.site-main {
+  background: $black;
+}
+
+.single-product .site-main {
+  background: $white;
+  color: $black;
+}
+.single-product .site-main a {
+  color: scale-color($primary-color, $lightness: -35%);
+}
+.single-product .site-main a:hover {
+  color: scale-color($primary-color, $lightness: -20%);
+}
+.single-product .site-main h2,
+.single-product .site-main h3,
+.single-product .site-main h4,
+.single-product .site-main h5 {
+  color: $black;
+}
+
+.main-logo {
+  background: linear-gradient($black, $black, $black);
+}
+.main-logo:hover,
+.secondary-logo:hover {
+  background: linear-gradient($darker-gray, $black, $black);
+}
+.header-bg {
+  background: $black;
+}
+.title-logos {
+    border-left-color: $black;
+    border-right-color: $darker-gray;
+}
+.site-header-menu .input-group-label {
+  color: $white;
+}
+.curtain-menu-button-toggle div, .side-slide-menu-button-toggle div {
+  background: $white;
+}
+.menu .is-active > a {
+  color: $secondary-color;
+}
+.menu .is-active > a:hover {
+  background: scale-color($primary-color, $lightness: -15%);
+  color: $secondary-color;
+}
+.menu a:hover {
+  background: $darker-gray;
+  color: $white;
+}
+#main-nav .nav-title {
+  color: $white;
+  border-bottom: $white solid 1px;
+}
+#main-nav .nav-title.invisible {
+  padding: 0;
+  height: 0;
+}
+
+#site-navigation .menu a:hover,
+#site-navigation .menu .is-active>a,
+#site-navigation .menu .current-menu-ancestor.is-active>a,
+#site-navigation .menu .current-menu-ancestor>a:hover,
+#site-navigation .menu .is-active>a:hover,
+#site-navigation .menu .current-menu-ancestor>a,
+#site-navigation .menu .is-active>a,
+#site-navigation .menu .current-menu-ancestor>a,
+#site-navigation #main-nav.menu .current-menu-item a {
+  color: $primary-color;
+}
+
+.side-slide-menu-open #mastInsert .input-group-label,
+.side-slide-menu-open #mastInsert .input-group-field,
+.side-slide-menu-open #mastInsert .input-group-button {
+  background: $darker-gray;
+}
+.mega-top #masthead:after,
+.side-slide-top #masthead:after {
+  border-top-color: $primary-color;
+  background: $primary-color;
+  border-bottom-color: $black;
+}
+.side-slide-menu-wrapper .vertical.submenu .menu-item {
+  margin-bottom: 0;
+}
+.side-slide-menu-wrapper #main-nav {
+  background: linear-gradient($black, $dark-gray);
+}
+.side-slide-menu-wrapper #main-nav .is-dropdown-submenu {
+  background: linear-gradient($black, $darker-gray);
+}
+.side-slide-menu-wrapper #main-nav .is-dropdown-submenu .enhance a {
+  border-radius: 0;
+  background: none;
+  border: none;
+  color: $secondary-color;
+}
+#site-navigation.side-slide-menu-wrapper #main-nav .is-dropdown-submenu a,
+#main-nav.menu-mega a[href] {
+  border: rgba($white, 0);
+  color: $primary-color;
+}
+#site-navigation.side-slide-menu-wrapper #main-nav .is-dropdown-submenu a:hover {
+  color: $black;
+  background: $primary-color;
+}
+#site-navigation #main-nav .is-dropdown-submenu.menu #event-menu a.button.small {
+  border: none;
+}
+.side-slide-menu-wrapper small.block.subheader {
+  color: $white;
+}
+.current-menu-item small.block.subheader {
+//   color: $white;
+  color: $black;
+}
+.side-slide-menu-wrapper #main-nav .is-dropdown-submenu a:hover .subheader {
+  color: $darker-gray;
+}
+#site-navigation.side-slide-menu-wrapper #main-nav .is-dropdown-submenu .enhance a {
+//   display: inline-block;
+//   text-align: center;
+//   max-width: 210px;
+}
+#site-navigation #main-nav .is-dropdown-submenu .event-menu-button a {
+  color: $primary-color;
+}
+#site-navigation #main-nav .is-dropdown-submenu .event-menu-button a:hover {
+  color: lighten($primary-color, 40%);
+  background: $primary-color;
+}
+#site-navigation #main-nav .menu .event-menu-button.selected-tab a {
+  color: $white;
+}
+#site-navigation .menu .selected-tab {
+  background: linear-gradient(darken($primary-color, 10%), lighten($primary-color, 30%));
+}
+#site-navigation .menu .selected-tab:hover {
+  color: darken($white, 30%);  
+  background: linear-gradient(darken($primary-color, 20%), lighten($primary-color, 20%));
+}
+
+
+.side-slide-menu-wrapper .menu.vertical {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.side-slide-menu-wrapper .menu.vertical>.menu-item {
+  flex: 1 0 100%;
+}
+.side-slide-menu-wrapper .menu.vertical>.menu-item.split-button {
+  flex: 1 0 50%;
+}
+.side-slide-menu-wrapper #main-nav .enhance .menu-column-img {
+//   margin: 1rem auto;
+//   width: 60%;
+}
+#site-navigation.side-slide-menu-wrapper #main-nav .is-dropdown-submenu .nav-title.hide+a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 0.9;
+}
+#site-navigation.side-slide-menu-wrapper #main-nav .is-dropdown-submenu .current-menu-item a {
+  background: $lighter-gray;
+  color: $black;
+}
+.tile .article-info {
+  background: rgba($primary-color, 0.85);
+}
+.tile .article-info a {
+  color: $black;
+}
+.tile:hover .article-info a {
+  color: $white;
+}
+
+
+@media screen and #{breakpoint(large up)} {
+  #event-menu .resizer-column>div:first-child:before {
+    background: linear-gradient($primary-color, $black);
+  }
+  #event-menu .resizer-column.collapse-column .nav-title:after {
+    background: linear-gradient(92deg, darken($primary-color, 8%) 40%, $primary-color);
+  }
+}
+@media screen and #{breakpoint(medium up)} {
+  .side-slide-menu-wrapper .submenu.is-dropdown-submenu:before {
+    content: attr(data-parent_title);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 1;
+    color: rgba($white,0.3);
+  }
+  .side-slide-menu-wrapper #main-nav {
+    height: auto;
+  }
+	.side-slide-menu-wrapper #main-nav .nav-title {
+    border-bottom: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: $header-font-family-alt;
+	}
+  .side-slide-menu-wrapper #main-nav .expanded-column .nav-title,
+  .side-slide-menu-wrapper #main-nav .collapse-column .nav-title {
+    letter-spacing: 2px;
+    font-family: $body-font-family;
+  }
+  .side-slide-menu-wrapper #main-nav .is-dropdown-submenu {
+    border-bottom: $secondary-color solid 1px;
+    height: auto;
+  }
+  .max-button.input-group>:last-child>.button {
+    border-top-color: $primary-color;
+  }
+}
+
+#site-navigation #main-nav .is-dropdown-submenu.menu #event-menu a {
+  color: darken($primary-color, 20%);
+  font-size: 0.9rem;
+}
+
+.profiles-page .entry-title {
+  font-size: 2.5rem;
+}
+
+
+.callout.secondary {
+  background-color: linear-gradient($secondary-color, lighten($secondary-color, 20%));
+  color: $white;
+} 
+.callout.secondary h2 {
+  text-transform: uppercase;
+}
+.callout.secondary a {
+  color: $white;
+}
+.callout.secondary a:hover {
+  text-decoration: underline;
+  text-shadow: 2px 1px 5px rgba($white, 0.5);
+}
+.callout,
+.callout label,
+.callout.primary,
+.callout.primary label {
+	color: $black;
+}
+.callout.secondary,
+.callout.secondary label {
+	color: $white;
+}
+.callout.primary h1,
+.callout.primary h2,
+.callout.primary h3,
+.callout.primary h4,
+.callout.primary h5,
+.callout.primary h6,
+.callout.primary a {
+  color: $secondary-color;
+}
+.callout h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.white small.block.subheader {
+  color: darken($primary-color, 20%);
+}
+
+.dark a,
+.darker a {
+  color: $white;
+}
+
+#site-footer a {
+  color: $primary-color;
+}
+#site-footer a:hover {
+  color: darken($primary-color, 20%);
+  text-decoration: underline;
+}
+footer#site-footer {
+  border-top: none;
+  background: $darker-gray;
+}
+footer#site-footer:before {
+  border-top: $primary-color solid 1px;
+  border-bottom: none;
+  height: 2px;
+  background: $primary-color;
+  content: '';
+  width: 100%;
+  box-sizing: content-box;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+footer#site-footer .social-button a {
+  padding-top: 0.6rem;  
+}
+.form-collapse-title small {
+  color: $white;
+}
+.form-collapse-title .button {
+  color: $primary-color;
+  background: $secondary-color;
+  border-color: $primary-color;
+}
+//profiles
+.profile .profile-name {
+  color: $white;
+}
+.profile-feature h5 a {
+  color: $black;
+}
+
+//icons
+
+.hero-icon {
+  color: $primary-color;
+}
+
+//tabs
+
+.separate .tabs-title > a:focus,
+.separate .tabs-title > a[aria-selected='true'],
+.separate .tabs-title > a:hover {
+  color: $secondary-color;
+}
+.tabs-panel .separate .tabs-title > a:focus,
+.tabs-panel .separate .tabs-title > a[aria-selected='true'],
+.tabs-panel .separate .tabs-title > a:hover {
+  color: $primary-color;
+  border-color: $primary-color;
+}
+
+.gset .tabs-title > a {
+  border-color: $white;
+}
+.gset .sub-head {
+  color: $white;
+}
+
+//tables
+
+
+//woocommerce
+
+.woocommerce table.shop_table {
+	border-color: $dark-gray;
+  border-radius: 0;
+}
+.woocommerce .price {
+  color: $primary-color;
+}
+.woocommerce .products-grid .max-button.input-group > :last-child > .button,
+.max-button.input-group>:last-child>.button {
+  border-left-color: $primary-color;
+}
+.woocommerce .vertical.menu a:hover {
+  color: $darker-gray;
+  background: $primary-color;
+}
+.select2-dropdown {
+  background: $secondary-color;
+}
+.woocommerce #place_order {
+  background: $primary-color;
+  color: $secondary-color;
+}
+.woocommerce #place_order:hover {
+  border-color: $white;
+  box-shadow: 0 0 20px rgba($black, 0.8);
+}
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+	background: lighten($secondary-color, 10%);
+	border-color: $primary-color;
+}
+#add_payment_method #payment div.payment_box,
+.woocommerce-cart #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {
+	background-color: lighten($secondary-color, 20%);
+	border-color: $primary-color;
+  color: $white;
+}
+#add_payment_method #payment div.payment_box::before,
+.woocommerce-cart #payment div.payment_box::before,
+.woocommerce-checkout #payment div.payment_box::before {
+	background: lighten($secondary-color, 10%);
+	border-bottom-color: $primary-color;
+}
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+  background-color: $dark-gray;
+}
+
+.category-gallery {
+    padding-bottom: 40px;
+}
+
+h1.article-info{
+  display: block;
+}
+
+// ul.accordion.wrapper-staff li, p, strong {
+//     color: white;
+// }
+ul.accordion.wrapper-staff center {
+  background: white;
+  color: black;
+}
+ul.accordion.wrapper-staff center a {
+  color: black;
+}
+ul.accordion.wrapper-staff .accordion-title {
+    color: black;
+}
+
+//wp customizations
+@media screen and #{breakpoint(small down)} {
+  //small size gallery mod for captions
+  .cell .wp-block-gallery .blocks-gallery-item figcaption {
+    background: $white;
+    color: $black;
+  }
+  .cell .wp-block-gallery .blocks-gallery-item figcaption h5 {
+    color: $primary-color;
+  }
+}
+// Added by Dara 1-22-20 Manager title adjustment
+@media screen and (min-width: 64em) and (max-width: 74.9375em){
+  .wp-block-gallery .blocks-gallery-image figcaption, .wp-block-gallery .blocks-gallery-item figcaption{
+    font-size: 0.6rem;
+    color: #ffffff;
+    background: linear-gradient(rgba(10,10,10,0), #0a0a0a);
+  }
+  .wp-block-gallery .blocks-gallery-item figcaption span{
+    border: none;
+    display: block;
+    margin: auto;
+  }
+} 
+/* Small only (640px-) */
+@media screen and (max-width: 39.9375em) {
+//   .wp-block-gallery .blocks-gallery-image figcaption, .wp-block-gallery .blocks-gallery-item figcaption{
+//     font-size: 0.6rem;
+//     color: #000000;
+//     background: linear-gradient(rgba(10,10,10,0), #0a0a0a);
+//   }
+  .wp-block-gallery .blocks-gallery-item figcaption span{
+    border: none;
+    display: block;
+    font-size: 0.6rem;
+    margin: auto;
+  }
+    .staff.wp-block-gallery .blocks-gallery-item {
+    padding: 0;
+  }
+  .cell .wp-block-gallery .blocks-gallery-item figcaption h5 {
+    color: #0078e1;
+    font-size: 0.6rem;
+  }
+  .cell .wp-block-gallery .blocks-gallery-item figcaption p {
+    font-size: 0.5rem;
+  }
+}
+
+/* Medium and up (640px +) */
+@media screen and (min-width: 40em) {
+  .wp-block-gallery .blocks-gallery-image figcaption, .wp-block-gallery .blocks-gallery-item figcaption{
+    font-size: 0.9rem;
+    color: #ffffff;
+    background: linear-gradient(rgba(10,10,10,0), #0a0a0a);
+  }
+  .wp-block-gallery .blocks-gallery-item figcaption span{
+    border: none;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Medium only (640px) */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+//   .wp-block-gallery .blocks-gallery-image figcaption, .wp-block-gallery .blocks-gallery-item figcaption{
+//     font-size: 0.6rem;
+//     color: #ffffff;
+//     background: linear-gradient(rgba(10,10,10,0), #0a0a0a);
+//   }
+//   .wp-block-gallery .blocks-gallery-item figcaption span{
+//     border: none;
+//     display: block;
+//     margin: auto;
+//   }
+}
+/* Large and up (1024px+) */
+@media screen and (min-width: 64em) {
+  .wp-block-gallery .blocks-gallery-image figcaption, .wp-block-gallery .blocks-gallery-item figcaption{
+    font-size: 0.7rem;
+    color: #ffffff;
+    background: linear-gradient(rgba(10,10,10,0), #0a0a0a);
+  }
+  .wp-block-gallery .blocks-gallery-item figcaption span{
+    border: none;
+    display: block;
+    margin: auto;
+  }
+}
+/* Large only (1024px) */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+  .wp-block-gallery .blocks-gallery-image figcaption, .wp-block-gallery .blocks-gallery-item figcaption{
+    font-size: 0.7rem;
+    color: #ffffff;
+    background: linear-gradient(rgba(10,10,10,0), #0a0a0a);
+  }
+  .wp-block-gallery .blocks-gallery-item figcaption span{
+    border: none;
+    display: block;
+    margin: auto;
+  }
+}
+
+.close-button-friend {
+  top: -30px;
+  width: auto;
+  font-size: 1rem;
+  padding: 4px;
+}
+
+.partnership li{
+  width: 24%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0.2rem;
+}
+
+.waiver {
+    &-container {
+        margin-top: 5rem;
+    }
+ 
+    height:30vh;
+    width: 100%;
+    padding: 1.5rem;
+    border:1px solid gray;
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
+ 
+    &__sub-heading {
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+ 
+    & blockquote p {
+        color: $white;
+    }
+}
+ 
+.hs-form-booleancheckbox-display span {
+    font-weight: 700;
+}
+ 
+ 
+//THESE TWO ARE FOR JS FUNCTIONALITY
+ 
+.woocommerce-checkout-review-order {
+    display: none;
+}
+ 
+#order_review_heading {
+    display: none;
+}
+// Dara style sheets
+.ebc_watchlist__player, .allTournament__player {
+  border-radius: 0;
+  background: linear-gradient(to bottom, #efef26, #e0e03b 40%, #3a3a3a 40%);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  transform: scale(1);
+  transition: all 0.2s;
+}
+.watchlist__nav.tabs-title > a:hover{
+  background: transparent;
+}
+// End Dara style sheets
+
